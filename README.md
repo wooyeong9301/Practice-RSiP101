@@ -11,8 +11,8 @@ Dataset : Articles sharing and reading from CI&T DeskDrop (from kaggle)
 이 결과는 아래의 팁들을 참고하여 더 발전시킬 가능성이 있다.
 - 모든 article이 언제 어느 때나 추천될 수 있음을 가정했지만, 주어진 시간에 유저가 볼 수 있는 article만 걸러 사용하는 것이 더 바람직하다.
 - 사용 가능한 맥락 정보-시간(기간, 요일, 월), 지역(나라, 주) 그리고 기기(브라우저, 모바일)-를 활용할 수 있다.   
-이런 정보들은 쉽게 **Learn-to-Rank**(XGBoost, Gradient Boosting Decision Trees with ranking objective), **Logistic**(with categorical features) 그리고 **Wide&Deep** 모델에 포함될 수 있다.
--- https://en.wikipedia.org/wiki/Learning_to_rank
+이런 정보들은 쉽게 **Learn-to-Rank**(XGBoost, Gradient Boosting Decision Trees with ranking objective), **Logistic**(with categorical features) 그리고 **Wide&Deep** 모델에 포함될 수 있다.   
+-- https://en.wikipedia.org/wiki/Learning_to_rank   
 -- https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html   
 
 - 발전된 Matrix Factorization과 Deep Learning models에 대해 RecSys 리서치 커뮤니티에 더 좋은 방법들이 있다.   
